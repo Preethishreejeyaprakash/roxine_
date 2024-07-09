@@ -1,0 +1,47 @@
+.body_content1 h1 {
+  justify-content: center;
+  text-align: center;
+  font-size: 90px;
+  margin-left: 450px;
+}
+.body_content1 {
+  background-color: grey;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.para3 {
+  justify-content: center;
+
+  text-align: center;
+  margin-top: 300px;
+  margin-right: 300px;
+  margin-left: 30px;
+}
+.para3 {
+  font-size: 40px;
+}
+.para4::first-letter {
+  font-size: 50px;
+}
+.para4 {
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  text-align: justify;
+  margin-right: 600px;
+  margin-left: 100px;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(image.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+img {
+  max-width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 1000px;
+  z-index: 1;
+  margin-right: 10px;
+}

@@ -1,0 +1,112 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("https://html.waituk.com/roxine/img/big-14.jpg");
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+a:hover {
+  color: black;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 1em;
+}
+.site_top a {
+  font-size: 3em;
+  display: inline-block;
+  margin-left: 0.5em 0;
+}
+.site_navigation ul,
+.site_navigation li {
+  margin: 0;
+  padding: 0;
+}
+.site_navigation li {
+  display: inline-block;
+  margin: 1.4em 1em 1em 1em;
+}
+.para1 {
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 150px;
+  margin-right: 300px;
+}
+h1 {
+  justify-content: center;
+  text-align: center;
+  font-size: 80px;
+  margin-right: 400px;
+  font-weight: bolder;
+}
+h2 {
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  margin-right: 400px;
+  font-size: 30px;
+}
+.para2 {
+  justify-content: center;
+
+  font-size: 30px;
+  margin-left: 200px;
+  margin-right: 450px;
+}
+.para2::first-letter {
+  font-size: 55px;
+}
+.body_content {
+  background-origin: content-box;
+  color: white;
+}
+.button_content,
+.button_content1 {
+  justify-content: center;
+  text-align: justify;
+  margin-left: 200px;
+  margin-right: 450px;
+}
+button {
+  background-color: #204a8e; /* blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button_content1 button {
+  background-color: #204a8e; /* blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+footer {
+  align-items: center;
+  color: white;
+  margin-left: 700px;
+  margin-bottom: 0px;
+}
+.material-symbols-outlined {
+  color: white;
+}
+.material-symbols-outlined:hover {
+  color: black;
+}
